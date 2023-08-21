@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('path-to-your-fonts/Inconsolata-Regular.ttf') format('truetype');
+  }
+
+body {
+    font-family: "Inconsolata", monospace;
+    margin: 10px;
+    width: 160px; /* Adjust the width as needed */
+    background-color: #1d1d1d; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+  

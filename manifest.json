@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Botnen_Ad-Blocker",
+    "version": "1.0",
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "action": {
+        "default_popup" : "index.html",
+        "default_icon" : "Icon.png",
+        "default_title" : "Botnen - AD_Blocker"
+    },
+    
+    "declarative_net_request": {
+        "rule_resources": [
+        {
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "rules.json"
+        }
+    ]
+  }
+}
+  
